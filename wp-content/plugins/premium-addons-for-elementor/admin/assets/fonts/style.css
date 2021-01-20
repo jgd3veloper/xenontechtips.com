@@ -1,0 +1,298 @@
+@font-face {
+    font-family: "pa-dash";
+    src: url("pa-dashboard.eot?edfssz");
+    src: url("pa-dashboard.eot?edfssz#iefix") format("embedded-opentype"),
+        url("pa-dashboard.ttf?edfssz") format("truetype"), url("pa-dashboard.woff?edfssz") format("woff"),
+        url("pa-dashboard.svg?edfssz#pa-dashboard") format("svg");
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+[class^="pa-dash-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: "pa-dash" !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    font-size: 17px;
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.toplevel_page_premium-addons > div.wp-menu-image::before {
+    position: relative;
+    top: 5px;
+    content: "\e94e";
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: "pa-dash" !important;
+    speak: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 21px;
+}
+#toplevel_page_premium-addons a[href="admin.php?page=premium-addons-pro"] {
+    color: #1a7fc2;
+}
+#toplevel_page_premium-addons a[href="admin.php?page=premium-addons-pro"]:hover {
+    color: #1a7fc2;
+}
+#toplevel_page_premium-addons li.current a[href="admin.php?page=premium-addons-pro"] {
+    color: #1a7fc2;
+}
+#toplevel_page_premium-addons li.current a[href="admin.php?page=premium-addons-pro"]:hover {
+    color: #1a7fc2;
+}
+
+/*
+* Dashboard Tabs
+*/
+.pa-dash-general:before {
+    content: "\e900";
+}
+.pa-dash-integrations:before {
+    content: "\e901";
+}
+.pa-dash-system-info:before {
+    content: "\e902";
+}
+.pa-dash-vcontrol:before {
+    content: "\e903";
+}
+.pa-dash-white-label:before {
+    content: "\e904";
+}
+.pa-dash-elements:before {
+    content: "\e905";
+}
+.pa-dash-license:before {
+    content: "\e910";
+}
+.pa-dash-features:before {
+    content: "\e911";
+}
+/*
+* Elements Categories
+*/
+.pa-dash-cat-all:before {
+    content: "\e906";
+}
+.pa-dash-cat-blurbs:before {
+    content: "\e907";
+}
+.pa-dash-cat-contact:before {
+    content: "\e908";
+}
+.pa-dash-cat-content:before {
+    content: "\e909";
+}
+.pa-dash-cat-images:before {
+    content: "\e90a";
+}
+.pa-dash-cat-off-grid:before {
+    content: "\e90b";
+}
+.pa-dash-cat-section:before {
+    content: "\e90c";
+}
+.pa-dash-cat-feed:before {
+    content: "\e90d";
+}
+.pa-dash-cat-data:before {
+    content: "\e90e";
+}
+.pa-dash-cat-social:before {
+    content: "\e90f";
+}
+/*
+* Widgets Icons
+*/
+.pa-dash-premium-notbar:before {
+    content: "\e913";
+}
+.pa-dash-premium-gradient:before {
+    content: "\e914";
+}
+.pa-dash-premium-color-transition:before {
+    content: "\e915";
+}
+.pa-dash-premium-behance:before {
+    content: "\e916";
+}
+.pa-dash-premium-charts:before {
+    content: "\e917";
+}
+.pa-dash-premium-content-toggle:before {
+    content: "\e918";
+}
+.pa-dash-premium-divider:before {
+    content: "\e919";
+}
+.pa-dash-premium-facebook-feed:before {
+    content: "\e91b";
+}
+.pa-dash-facebook-feed-2:before {
+    content: "\e91b";
+}
+.pa-dash-premium-fb-chat:before {
+    content: "\e91c";
+}
+.pa-dash-premium-facebook-reviews:before {
+    content: "\e91d";
+}
+.pa-dash-premium-google-reviews:before {
+    content: "\e91e";
+}
+.pa-dash-premium-hscroll:before {
+    content: "\e91f";
+}
+.pa-dash-premium-flipbox:before {
+    content: "\e920";
+}
+.pa-dash-premium-iconbox:before {
+    content: "\e921";
+}
+.pa-dash-premium-image-accordion:before {
+    content: "\e922";
+}
+.pa-dash-premium-image-comparison:before {
+    content: "\e923";
+}
+.pa-dash-premium-image-hotspots:before {
+    content: "\e924";
+}
+.pa-dash-premium-img-layers:before {
+    content: "\e925";
+}
+.pa-dash-premium-instagram-feed:before {
+    content: "\e926";
+}
+.pa-dash-premium-kenburns:before {
+    content: "\e927";
+}
+.pa-dash-premium-lottie:before {
+    content: "\e928";
+}
+.pa-dash-premium-magic-section:before {
+    content: "\e929";
+}
+.pa-dash-premium-multi-scroll:before {
+    content: "\e92a";
+}
+.pa-dash-premium-ihover:before {
+    content: "\e92b";
+}
+.pa-dash-premium-parallax:before {
+    content: "\e94f";
+}
+.pa-dash-premium-particles:before {
+    content: "\e92c";
+}
+.pa-dash-premium-prev-img:before {
+    content: "\e92d";
+}
+.pa-dash-premium-tabs:before {
+    content: "\e92f";
+}
+.pa-dash-premium-tables:before {
+    content: "\e92e";
+}
+.pa-dash-trustpilot:before {
+    content: "\e930";
+}
+.pa-dash-premium-twitter-feed:before {
+    content: "\e931";
+}
+.pa-dash-premium-unfold:before {
+    content: "\e932";
+}
+.pa-dash-premium-whatsapp-chat:before {
+    content: "\e933";
+}
+.pa-dash-premium-yelp-reviews:before {
+    content: "\e934";
+}
+.pa-dash-premium-banner:before {
+    content: "\e935";
+}
+.pa-dash-premium-blog:before {
+    content: "\e936";
+}
+.pa-dash-premium-button:before {
+    content: "\e937";
+}
+.pa-dash-premium-carousel:before {
+    content: "\e938";
+}
+.pa-dash-premium-contactform:before {
+    content: "\e939";
+}
+.pa-dash-premium-countdown:before {
+    content: "\e93a";
+}
+.pa-dash-premium-counter:before {
+    content: "\e93b";
+}
+.pa-dash-premium-dual-header:before {
+    content: "\e93c";
+}
+.pa-dash-premium-fancytext:before {
+    content: "\e93d";
+}
+.pa-dash-premium-maps:before {
+    content: "\e93e";
+}
+.pa-dash-premium-title:before {
+    content: "\e93f";
+}
+.pa-dash-premium-icon-list:before {
+    content: "\e940";
+}
+.pa-dash-premium-image-button:before {
+    content: "\e941";
+}
+.pa-dash-premium-image-scroll:before {
+    content: "\e942";
+}
+.pa-dash-premium-image-separator:before {
+    content: "\e943";
+}
+/* .pa-dash-premium-lottie:before {
+    content: "\e944";
+} */
+.pa-dash-premium-lottie-widget:before {
+    content: "\e945";
+}
+.pa-dash-premium-grid:before {
+    content: "\e946";
+}
+.pa-dash-premium-modalbox:before {
+    content: "\e947";
+}
+.pa-dash-premium-pricing-table:before {
+    content: "\e948";
+}
+.pa-dash-premium-progressbar:before {
+    content: "\e949";
+}
+.pa-dash-premium-person:before {
+    content: "\e94a";
+}
+.pa-dash-premium-testimonials:before {
+    content: "\e94b";
+}
+.pa-dash-premium-vscroll:before {
+    content: "\e94c";
+}
+.pa-dash-premium-videobox:before {
+    content: "\e94d";
+}

@@ -1,0 +1,2 @@
+[22-Apr-2020 15:48:00 UTC] WordPress database error Unknown column 'wp_' in 'field list' for query SELECT wp_
+[22-Apr-2020 17:45:10 UTC] WordPress database error Table 'u693517278_xenontechtips.wp_posts' doesn't exist for query SELECT * FROM wp_posts WHERE ID = 3 LIMIT 1 made by do_action('admin_init'), WP_Hook->do_action, WP_Hook->apply_filters, WP_Privacy_Policy_Content::text_change_check, current_user_can, WP_User->has_cap, map_meta_cap, get_post, WP_Post::get_instance
